@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> <!-- berisi metadata -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- mengatur agar tampilan responsive di berbagai perangkat -->
+
+    <title>Sistem Informasi Statistik Kota Yogyakarta</title> <!-- judul halaman -->
+
+    <link rel="stylesheet" href="./style.css"> <!-- menautkan file css eksternal -->    
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+
+</head>
+<body> <!-- bagian body -->
+    <header class="header">
+        <div class="logo">
+            <img src="./assets/1x/222.png" alt="PemKot YK">
+        </div>
+        <nav class="nav">
+            <ul class="nav-links">
+                <li><a href="#Beranda">Beranda</a></li>
+                <li><a href="#Kependudukan">Kependudukan</a></li>
+                <li><a href="#Narahubung">Narahubung</a></li>
+            </ul>
+        </nav>
+    </header>
+    </div>
+    <main> <!-- berisi konten utama -->
+        <section class="fullscreen" id="Beranda">
+            
+            <h1 class="judul">Sistem Informasi Statistik 
+                <br>
+                Kota Yogyakarta
+            </h1>
+            <div class="overlay"></div> <!-- Overlay untuk membuat video lebih gelap -->
+            <video autoplay muted loop class="background-video">
+                <source src="./assets/drone.mp4" type="video/mp4">
+                
+            </video>
+        </section>
+    
+        
+    
+        <section class="fullscreen" id="Kependudukan">
+            <h2>Kependudukan</h2>
+            <table>
+                <tr>
+                    <th>Kecamatan</th>
+                    <th>Jumlah Penduduk</th>
+                    <th>Kepadatan Penduduk/km²</th>
+                </tr>
+                <tr>
+                    <td>Mantrijeron</td>
+                    <td>33716</td>
+                    <td>13</td>
+                </tr>
+                <tr>
+                    <td>Kraton</td>
+                    <td>18021
+                    </td>
+                    <td>13</td>
+                </tr>
+                <tr>
+                    <td>Mergangsan</td>
+                    <td>28865
+                    </td>
+                    <td>13</td>
+                </tr>
+                <tr>
+                    <td>Umbulharjo</td>
+                    <td>68468
+                    </td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>Kotagede</td>
+                    <td>33594
+                    </td>
+                    <td>11</td>
+                </tr>
+                <tr>
+                    <td>Gondokusuman</td>
+                    <td>37082
+                    </td>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <td>Danurejan</td>
+                    <td>18881
+                    </td>
+                    <td>17</td>
+                </tr>
+                <tr>
+                    <td>Pakualaman</td>
+                    <td>9188
+                    </td>
+                    <td>14</td>
+                </tr>
+                <tr>
+                    <td>Gondomanan</td>
+                    <td>12849
+                    </td>
+                    <td>11</td>
+                </tr>
+                <tr>
+                    <td>Ngampilan</td>
+                    <td>15425
+                    </td>
+                    <td>18</td>
+                </tr>
+                <tr>
+                    <td>Wirobrajan</td>
+                    <td>24847
+                    </td>
+                    <td>14</td>
+                </tr>
+                <tr>
+                    <td>Gedong Tengen</td>
+                    <td>16556
+                    </td>
+                    <td>17</td>
+                </tr>
+                <tr>
+                    <td>Jetis</td>
+                    <td>23487
+                    </td>
+                    <td>14</td>
+                </tr>
+                <tr>
+                    <td>Tegalrejo</td>
+                    <td>34800
+                    </td>
+                    <td>12</td>
+                </tr>
+            </table>
+            <h4>
+                <a href="https://jogjakota.bps.go.id/id/statistics-table/3/V1ZSbFRUY3lTbFpEYTNsVWNGcDZjek53YkhsNFFUMDkjMw==/penduduk--laju-pertumbuhan-penduduk--distribusi-persentase-penduduk--kepadatan-penduduk--rasio-jenis-kelamin-penduduk-menurut-kecamatan-di-kota-yogyakarta--2024.html?year=2024">
+                    Sumber: Badan Pusat Statistik (BPS)</a>
+            </h4>
+            <h4></h4>
+        </section>
+    
+    </main>
+    <footer id="Narahubung"> <!-- bagian footer -->
+        <h2>Narahubung</h2>
+        <p>Pemerintah Kota Yogyakarta | +62 123456789</p>
+    </footer>
+    
+</body>
+</html>
